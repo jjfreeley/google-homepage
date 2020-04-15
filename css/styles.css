@@ -1,0 +1,74 @@
+button {
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 0 5px;
+    border: transparent;
+    color: #5f6368;
+}
+.bottomnav {
+        position: fixed;
+        bottom: 0;
+        background-color: #f2f2f2;
+        width: 100%;
+        overflow: hidden;
+}
+.bottomnav a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: arial;
+    font-size: 14px;
+    color: #5f6368;
+}
+.bottomnav-right {
+    float: right;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.logo {
+    display: block;
+    margin: 100px auto 0 auto;
+}
+
+.searchbar {
+    display: block;
+    margin: 25px auto 0 auto;
+    width: 40%;
+    height: 40px;
+    border: 0.5px lightgray solid;
+    border-radius: 25px;
+}
+.signin {
+    border-radius: 2px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: #4285f4;
+    color: #ffffff;
+    padding: 10px;
+    margin: 0 15px;
+
+}
+.topnav {
+    overflow: hidden;
+    margin: 25px 15px;
+}
+.topnav a {
+    float: left;
+    font-family: arial;
+    font-size: 13px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 10px 0 10px 15px;
+}
+.top-right {
+    float: right;
+}
